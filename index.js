@@ -41,11 +41,6 @@ async function run() {
             const result = await eventData.toArray();
             res.send(result);
 
-
-
-            app.get("/", (req, res) => {
-                res.send("Route is working");
-            })
         })
 
 
